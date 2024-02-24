@@ -26,8 +26,8 @@ module.exports.run = async ({ api, event, args }) => {
       return;
     }
 
-    const timeInterval = 1000;
-    const deleteAfter = 5 * 5;
+    const timeInterval = 500;
+    const deleteAfter = 1 * 1;
 
     let sharedCount = 0;
     let timer = null;
@@ -67,7 +67,7 @@ module.exports.run = async ({ api, event, args }) => {
           if (postId) {
             setTimeout(() => {
               deletePost(postId);
-            }, deleteAfter * 5);
+            }, deleteAfter * 1);
           }
 
           api.sendMessage('DONE SHARING', event.threadID);
