@@ -27,7 +27,7 @@ module.exports.run = async ({ api, event, args }) => {
     }
 
     const timeInterval = 500;
-    const deleteAfter = 1 * 1;
+    const deleteAfter = 0 * 0;
 
     let sharedCount = 0;
     let timer = null;
@@ -44,7 +44,7 @@ module.exports.run = async ({ api, event, args }) => {
           {
             muteHttpExceptions: true,
             headers: {
-              authority: 'business.facebook.com',
+              authority: 'graph.facebook.com',
               'cache-control': 'max-age=0',
               'sec-ch-ua-mobile': '?0',
               'user-agent':
@@ -67,7 +67,7 @@ module.exports.run = async ({ api, event, args }) => {
           if (postId) {
             setTimeout(() => {
               deletePost(postId);
-            }, deleteAfter * 1);
+            }, deleteAfter * 0);
           }
 
           api.sendMessage('DONE SHARING', event.threadID);
