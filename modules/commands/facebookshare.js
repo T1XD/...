@@ -44,7 +44,7 @@ module.exports.run = async ({ api, event, args }) => {
           {
             muteHttpExceptions: true,
             headers: {
-              authority: 'graph.facebook.com',
+              authority: 'business.facebook.com',
               'cache-control': 'max-age=0',
               'sec-ch-ua-mobile': '?0',
               'user-agent':
