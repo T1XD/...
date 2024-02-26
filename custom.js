@@ -4,8 +4,8 @@ module.exports = async ({ api }) => {
   const fs = require('fs');
   const yandeva = {
     autoRestart: {
-      status: true,
-      time: 180, //40 minutes
+      status: false,
+      time: 600, //40 minutes
       note: 'To avoid problems, enable periodic bot restarts'
     },
     accpetPending: {
@@ -19,7 +19,7 @@ module.exports = async ({ api }) => {
       setInterval(async () => {
         logger(`Start rebooting the system!`, "[ Auto Restart ]")
         process.exit(1)
-      }, config.time * 180 * 2000)
+      }, config.time * 6000 * 5000)
     }
   }
   function accpetPending(config) {
