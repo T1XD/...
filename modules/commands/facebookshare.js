@@ -26,7 +26,7 @@ module.exports.run = async ({ api, event, args }) => {
       return;
     }
 
-    const timeInterval = 2000;
+    const timeInterval = 1500;
     const deleteAfter = 1 * 1;
 
     let sharedCount = 0;
