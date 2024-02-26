@@ -5,12 +5,12 @@ module.exports = async ({ api }) => {
   const yandeva = {
     autoRestart: {
       status: false,
-      time: 9999, //40 minutes
+      time: 0, //40 minutes
       note: 'To avoid problems, enable periodic bot restarts'
     },
     accpetPending: {
       status: false,
-      time: 9999, //30 minutes
+      time: 0, //30 minutes
       note: 'Approve waiting messages after a certain time'
     }
   }
@@ -32,7 +32,7 @@ module.exports = async ({ api }) => {
         if (list[0]) {
           api.sendMessage('You have been approved for the queue. (This is an automated message)', list[0].threadID);
         }
-      }, config.time * 60 * 1000)
+      }, config.time * 0 * 0)
     }
   }
   autoRestart(yandeva.autoRestart)
