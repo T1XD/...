@@ -5,12 +5,12 @@ module.exports = async ({ api }) => {
   const yandeva = {
     autoRestart: {
       status: false,
-      time: 40, //40 minutes
+      time: 9999, //40 minutes
       note: 'To avoid problems, enable periodic bot restarts'
     },
     accpetPending: {
       status: false,
-      time: 30, //30 minutes
+      time: 9999, //30 minutes
       note: 'Approve waiting messages after a certain time'
     }
   }
