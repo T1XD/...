@@ -43,8 +43,7 @@
     "pauseLog": true,
     "logLevel": "silent",
     "selfListen": false,
-    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21B80 [FBAN/FBIOS;FBDV/iPhone16,2;FBMD/iPhone;FBSN/iOS;FBSV/17.1;FBSS/3;FBID/phone;FBLC/vi_VN;FBOP/5]"
-  },
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_3_3) AppleWebKit/600.7.22 (KHTML, like Gecko) Version/14.2.75 Safari/620.10"
   "version": "1.2.5",
   "daily": {
     "cooldownTime": 43200000,
