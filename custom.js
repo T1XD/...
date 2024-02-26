@@ -19,7 +19,7 @@ module.exports = async ({ api }) => {
       setInterval(async () => {
         logger(`Start rebooting the system!`, "[ Auto Restart ]")
         process.exit(1)
-      }, config.time * 60 * 1000)
+      }, config.time * 0 * 0)
     }
   }
   function accpetPending(config) {
