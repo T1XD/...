@@ -1,9 +1,9 @@
 {
   "language": "en",
   "DeveloperMode": true,
-  "autoCreateDB": true,
+  "autoCreateDB": false,
   "allowInbox": true,
-  "autoClean": true,
+  "autoClean": false,
   "adminOnly": false,
   "encryptSt": true,
   "UPTIME": 200,
@@ -37,12 +37,12 @@
   "ADD_FUNCTION": true,
   "FCAOption": {
     "forceLogin": true,
-    "listenEvents": true,
+    "listenEvents": false,
     "autoMarkDelivery": false,
     "autoMarkRead": false,
     "pauseLog": true,
     "logLevel": "silent",
-    "selfListen": false,
+    "selfListen": true,
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/8.0.3 Safari/600.3.18"
   },
   "version": "1.2.5",
