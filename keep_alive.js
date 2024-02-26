@@ -1,12 +1,9 @@
-const express = require('express');
-const app = express();
+var http = require('http');
 
-const port = process.env.PORT || 5000
+http.createServer (function (req, res) {
 
-// const port = 5000
+res.write("I'm alive");
 
-app.get('/', (req, res) => res.send('Remade By !!'));
+res.end();
 
-app.listen(port, () =>
-	console.log(`Your app is listening a http://localhost:${port}`)
-);
+}).listen(8080);
