@@ -2,7 +2,7 @@
   "language": "en",
   "DeveloperMode": true,
   "autoCreateDB": true,
-  "allowInbox": true,
+  "allowInbox": false,
   "autoClean": true,
   "adminOnly": false,
   "encryptSt": true,
