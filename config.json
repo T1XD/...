@@ -3,7 +3,7 @@
   "DeveloperMode": true,
   "autoCreateDB": false,
   "allowInbox": true,
-  "autoClean": false,
+  "autoClean": true,
   "adminOnly": false,
   "encryptSt": true,
   "UPTIME": 200,
@@ -37,7 +37,7 @@
   "ADD_FUNCTION": true,
   "FCAOption": {
     "forceLogin": true,
-    "listenEvents": false,
+    "listenEvents": true,
     "autoMarkDelivery": false,
     "autoMarkRead": false,
     "pauseLog": true,
