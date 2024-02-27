@@ -43,8 +43,7 @@
     "pauseLog": true,
     "logLevel": "silent",
     "selfListen": false,
-    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_3_3) AppleWebKit/600.7.22 (KHTML, like Gecko) Version/14.2.75 Safari/620.10"
-  "version": "1.2.5",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/8.0.3 Safari/600.3.18"
   "daily": {
     "cooldownTime": 43200000,
     "rewardCoin": 500
