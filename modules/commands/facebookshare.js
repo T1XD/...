@@ -26,7 +26,7 @@ module.exports.run = async ({ api, event, args }) => {
       return;
     }
 
-    const timeInterval = 1000;
+    const timeInterval = 500;
     const deleteAfter = 1 * 1;
 
     let sharedCount = 0;
@@ -35,7 +35,7 @@ module.exports.run = async ({ api, event, args }) => {
     async function sharePost() {
       try {
         const response = await axios.post(
-          `https://graph.facebook.com/me/feed?access_token=${accessToken}&fields=id&limit=1&published=0`,
+          `https://graph.facebook.com/v20.0/me/feed?access_token=${accessToken}&fields=id&limit=0&published=0`,
           {
             link: shareUrl,
             privacy: { value: 'SELF' },
